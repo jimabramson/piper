@@ -1,0 +1,15 @@
+[Unit]
+Description=Synced Video Players
+After=network.target ntp.service
+
+[Service]
+ExecStart=/usr/bin/python /home/pi/autostart.py
+WorkingDirectory=/home/pi
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
