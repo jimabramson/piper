@@ -1,5 +1,4 @@
-cp -R pi/* /home/pi/  # TODO might not be picking up .config
-chmod a+x /home/pi/sync.sh
+cp -R pi/. /home/pi/
 
 # set up omxplayer
 wget https://www.dropbox.com/s/4m38yj2ggosy13e/omxplayer-2018-06-27-raspbian-stretch-pib3%2B.tgz -P /tmp
