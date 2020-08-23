@@ -5,7 +5,7 @@ wget https://www.dropbox.com/s/4m38yj2ggosy13e/omxplayer-2018-06-27-raspbian-str
 sudo tar -C / -zxvf /tmp/omxplayer-2018-06-27-raspbian-stretch-pib3+.tgz
 
 # set up ntp
-sudo apt-get install ntp
+sudo apt-get -y install ntp
 sudo cp etc/ntp.conf /etc/ntp.conf
 sudo chown -R ntp /var/log/ntpstats  # doesnt do the trick apparently
 
