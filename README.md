@@ -5,8 +5,9 @@
 2. touch 'ssh' to enable ssh (e.g. on mac os, re-mount the sd and do `touch /Volumes/boot/ssh`)
 3. remove sd card and attach to pi device, connect ethernet & power (it will take a minute or two to boot)
 4. figure out the IP address of the pi on the network.  (sorry you're on your own here, depending on how your network works)
-5. ssh pi@<address>
-6. enter the following commands: ```
+5. ssh pi@\<address\>
+6. enter the following commands:
+```
 sudo apt-get update && sudo apt-get install git
 git clone https://github.com/jimabramson/piper.git
 cd piper
