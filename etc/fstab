@@ -1,0 +1,7 @@
+proc            /proc           proc    defaults          0       0
+PARTUUID=97d2ec48-01  /boot           vfat    defaults          0       2
+PARTUUID=97d2ec48-02  /               ext4    defaults,noatime  0       1
+# a swapfile is not a swap partition, no line here
+#   use  dphys-swapfile swap[on|off]  for that
+LABEL="Lee_LH" /mnt/usbdrive exfat defaults,auto,users,ro,nofail,x-systemd.device-timeout=15 0 0
+

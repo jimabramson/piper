@@ -26,3 +26,6 @@ sudo cp etc/wpa_supplicant/wpa_supplicant.conf /etc/wpa_supplicant/
 sudo cp etc/systemd/system/syncplayer.service /etc/systemd/system/
 sudo systemctl enable syncplayer.service
 
+# install exfat support for usb drive
+sudo apt-get install exfat-fuse
+
