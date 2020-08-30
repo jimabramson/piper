@@ -28,4 +28,5 @@ sudo systemctl enable syncplayer.service
 
 # install exfat support for usb drive
 sudo apt-get install exfat-fuse
-
+# configure fstab
+sudo cp etc/fstab /etc/
