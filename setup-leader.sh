@@ -12,8 +12,8 @@ sudo cp etc/hostapd/hostapd.conf /etc/hostapd/
 sudo cp etc/default/hostapd /etc/default/
 
 
-### ntp follower
+### ntp leader
 sudo apt-get -y install ntp
-sudo cp etc/ntp.conf /etc/ntp-server.conf
+sudo cp etc/ntp-server.conf /etc/ntp.conf
 sudo chown -R ntp /var/log/ntpstats  # TODO not working
 
