@@ -3,7 +3,7 @@ source $SCRIPT_DIR/setup-common.sh
 
 
 ### wifi AP
-sudo apt-get install -y hostapd dnsmasq
+sudo apt-get -y install hostapd dnsmasq
 sudo systemctl unmask hostapd
 sudo systemctl enable hostapd
 sudo cp etc/dhcpcd.conf /etc/

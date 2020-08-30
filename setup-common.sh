@@ -9,7 +9,7 @@ sudo cp boot/config.txt /boot/config.txt
 
 
 ### usb drive
-sudo apt-get install exfat-fuse
+sudo apt-get -y install exfat-fuse
 sudo cp etc/fstab /etc/
 
 
